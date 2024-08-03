@@ -1,0 +1,126 @@
+.progresspage {
+    padding: 20px;
+    margin-left: 180px;
+    color: #003366;
+    font-family: Arial, sans-serif;
+    width: 1200px;
+}
+
+.secondbar {
+    margin-bottom: 20px;
+}
+
+.search-box {
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.search-input {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #003366;
+    border-radius: 4px;
+    outline: none;
+}
+
+.suggestions {
+    position: absolute;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-top: none;
+    background-color: #fff;
+    z-index: 1000;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    max-height: 150px;
+    overflow-y: auto;
+}
+
+.suggestions li {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.suggestions li:hover {
+    background-color: #e0e0e0;
+}
+
+.table {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.project-title {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.project-info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.project-info div {
+    width: 30%;
+}
+
+.project-info h3 {
+    margin-bottom: 10px;
+}
+
+.slider-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.slider-column {
+    width: 30%;
+}
+
+.slider-column label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.slider-column input[type="range"] {
+    width: 100%;
+}
+
+.comment input[type="text"] {
+    width: 50%;
+    padding: 13px;
+    border: 1px solid #003366;
+    border-radius: 4px;
+    outline: none;
+    margin-left: 10px;
+}
+
+.submit-btn {
+    background-color: #00509e;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.submit-btn:hover {
+    background-color: #00509e;
+}
+
+.result {
+    margin-top: 20px;
+    background-color: #d9edf7;
+    padding: 10px;
+    border: 1px solid #bce8f1;
+    border-radius: 4px;
+}
